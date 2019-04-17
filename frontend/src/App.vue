@@ -2,21 +2,18 @@
   <div id="app">
     <b-container>
       <Navbar />
-      
-      <Content />
+      <router-view></router-view>
     </b-container>
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue';
-import Content from './components/Content.vue';
 
 export default {
   name: 'app',
   components: {
-    Navbar,
-    Content
+    Navbar
   }
 }
 </script>

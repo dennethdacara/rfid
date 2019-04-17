@@ -1,14 +1,16 @@
+import Vue from 'vue';
+import VueRouter from 'vue-router';
 import Content from '../components/Content.vue';
 
-export const routes = [
-    {
-        path: '/',
-        name: 'Content',
-        component: Content
-    },
-    {
-        path: '/Content',
-        name: 'Content',
-        component: Content
-    },
-];
+Vue.use(VueRouter);
+
+export default new VueRouter({
+    mode: 'history',
+    routes: [
+        {
+            path: '/',
+            name: 'Content',
+            component: Content
+        }
+    ]
+});
