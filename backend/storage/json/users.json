@@ -1,0 +1,5 @@
+[
+    {"id": 1, "school_id": 0, "role_id": 1, "rfid_code": 0, "given_name": "Master", "last_name": "Admin", "image": null, "username": "master", "email": "master@gmail.com", "password": "password"},
+    {"id": 2, "school_id": 0, "role_id": 2, "rfid_code": 0, "given_name": "Main", "last_name": "Admin", "image": null, "username": "admin", "email": "admin@gmail.com", "password": "password"}
+]
+
